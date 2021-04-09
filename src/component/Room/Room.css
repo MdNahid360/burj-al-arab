@@ -1,0 +1,35 @@
+.bt{
+    background:rgb(255, 0, 76);
+    color: white;
+}
+.bx{
+    color: rgb(68, 68, 68);
+}
+.logo{
+    background:rgb(162, 0, 255);
+    border-radius: 100%;
+    color: white!important;
+    width:40px!important;
+    height:40px!important;
+     
+}
+.card{
+    overflow: hidden!important;
+    border-radius:12px!important;
+    border: 0px!important;
+    box-shadow: 0px 4px 14px 0px rgba(44, 34, 34, 0.205);
+    animation: down 0.39s linear 1;
+    
+}
+
+@keyframes down {
+    0%{
+        opacity: 0;
+        transform:scale(0) ;
+        
+    }
+    100%{
+            opacity: 100;
+            transform:scale(1) ;
+        }
+}
